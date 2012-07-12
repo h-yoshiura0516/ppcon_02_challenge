@@ -11,7 +11,7 @@ $(
 				else
 				{
 					var name = $('#yamada_name').text();
-					$('#subject01_result').removeClass('badge-important')
+					$('#subject01_result').removeClass('badge-important');
 					$('#subject01_result').html(name);
 					$(this).addClass('btn-inverse');
 				}
